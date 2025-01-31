@@ -7,7 +7,7 @@ namespace HNG12API.Controllers
     [ApiController]
     public class InformationController : ControllerBase
     {
-        [HttpGet]
+        [HttpGet("Retriever")]
 
         public IActionResult GetInformation()
         {
@@ -15,7 +15,7 @@ namespace HNG12API.Controllers
             {
                 email = "godsgiftoghenechohwo@gmail.com",
                 currentDate = DateTime.UtcNow.ToString("o"),
-                githubUrl = ""
+                githubUrl = "https://github.com/Godsgift-Tech/HNG12API"
 
                 //return Ok("Welcome to HNG12 API");
             };
